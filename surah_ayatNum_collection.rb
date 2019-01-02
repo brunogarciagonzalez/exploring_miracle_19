@@ -1,5 +1,5 @@
 # a hash whose keys are surah number, and corresponding value to key is the number of verses of that surah number
-# this hash includes the correct number of ayat for surah 9, at 127
+# this collection includes the correct number of ayat for surah 9, at 127
 
 @surah_ayatNum_collection = [
   {1 => 7},
