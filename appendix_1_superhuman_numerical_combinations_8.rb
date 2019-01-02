@@ -1,6 +1,6 @@
 require_relative("surah_ayatNum_collection.rb")
 
-# from collection should produce  str "123456 21... 1234567 28" for long division calculator
+# from collection should produce  str "33410 6234 114 1 7 2 286... 114 6" for long division calculator
 
 @verse_count = 0
 @verse_sum = 0
