@@ -16,8 +16,6 @@ end
 
 @stringed_num += @total_number_of_numbered_verses.to_s
 
-@stringed_num += @total_sum_of_verse_numbers.to_s
-
 @surah_ayatNum_collection.each do |surah_hash|
 
   surah_hash.each do |surah_int, aya_int|
