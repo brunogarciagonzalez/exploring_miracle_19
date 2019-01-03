@@ -8,7 +8,6 @@ require_relative("surah_ayatNum_collection.rb")
 @total_number_of_numbered_verses = 0
 
 @surah_ayatNum_collection.each do |surah_hash|
-  @sum_of_verse_numbers = 0
   surah_hash.each do |surah_int, aya_int|
     @total_number_of_numbered_verses += aya_int
   end
