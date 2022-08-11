@@ -8,7 +8,7 @@ require_relative("constants.rb")
 
 @output = ""
 
-@COLLECTION.each do |tuple|
+COLLECTION.each do |tuple|
   chapter_number = tuple[0]
   count_of_verses_in_chapter = tuple[1]
 
@@ -20,7 +20,7 @@ require_relative("constants.rb")
   @output += count_of_verses_in_chapter.to_s
 end
 
-@output += @TOTAL_NUM_VERSES.to_s
+@output += TOTAL_NUM_VERSES.to_s
 
 # @output turns out to be the following number, which was confirmed to be divisible by 19 using:
 # https://www.dcode.fr/modulo-n-calculator

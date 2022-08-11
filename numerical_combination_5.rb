@@ -6,7 +6,7 @@ require_relative("constants.rb")
 
 @output = ""
 
-@COLLECTION.each do |tuple|
+COLLECTION.each do |tuple|
   chapter_number = tuple[0]
   count_of_verses_in_chapter = tuple[1]
 
