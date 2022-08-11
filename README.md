@@ -8,4 +8,8 @@ From Surah 74 (Chapter 74):
 
 Numerical Combination 1:
 
-- Concatenate the number of each verse in the Quran, preceded for each sura by the number of verses in that sura.
+- Concatenate the number of each verse in the Quran, **preceded** for each sura by the number of verses in that sura.
+
+Numerical Combination 2:
+
+- Concatenate the number of each verse in the Quran, **followed** for each sura by the number of verses in that sura.

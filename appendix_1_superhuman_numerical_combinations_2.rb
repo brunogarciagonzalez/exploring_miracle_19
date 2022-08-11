@@ -1,6 +1,12 @@
 require_relative("surah_ayatNum_collection.rb")
 
-# from collection should produce  str "12345677...1234566...6234" for long division calculator
+# COMBINATION:
+# Concatenate the number of each verse in the Quran, followed for each sura by the number of verses in that sura. 
+
+# Instead of concatenating the total number of verses in every sura ahead of the sura (as in #1),
+# concatenate it at the end of every sura.
+# Thus, the number representing Sura 1 will look like this: 1234567 7, instead of 7 1234567.
+# Keep concatenating and ultimately parse that string to an integer and divide it by 19.
 
 @stringed_num = ""
 
