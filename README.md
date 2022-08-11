@@ -100,3 +100,9 @@ Numerical Combination 14:
 - Followed by count of verses for each chapter,
 - Followed by (again) the total number of verses in Quran,
 - Followed by (again) the total number of chapters in Quran.
+
+Numerical Combination 15:
+
+- Concatenate the verse-numbers for a chapter,
+- Followed by the SUM of that chapter's number plus the count of verses for that chapter,
+- For all chapters.
