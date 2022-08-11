@@ -1,7 +1,5 @@
 require_relative("surah_ayatNum_collection.rb")
 
-# from collection should produce  str "71234567...6123456" for long division calculator
-
 # COMBINATION:
 # Concatenate the number of each verse in the Quran, preceded for each sura by the number of verses in that sura. 
 
