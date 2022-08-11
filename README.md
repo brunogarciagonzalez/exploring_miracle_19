@@ -77,3 +77,12 @@ Numerical Combination 11:
 - Followed by chapter number,
 - Followed by the sum of verse-numbers for that chapter,
 - For all chapters.
+
+Numerical Combination 12:
+
+- Concatenate the total number of chapters in Quran,
+- Followed by the total number of verses in Quran,
+- Follower by the total sum of verse-numbers in Quran,
+- Followed by chapter number,
+- Followed by count of verses for that chapter,
+- For all chapters.
