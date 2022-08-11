@@ -22,6 +22,8 @@ COLLECTION.each do |tuple|
   @output += chapter_number.to_s
 end
 
+puts @output
+
 # @output turns out to be the following number, which was confrmed to be divisible by 19 using:
 # https://www.dcode.fr/modulo-n-calculator
 
