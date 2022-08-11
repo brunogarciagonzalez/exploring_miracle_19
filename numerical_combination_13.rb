@@ -7,15 +7,15 @@ require_relative("constants.rb")
 
 @output = ""
 
-@output += @TOTAL_NUM_VERSES.to_s
+@output += TOTAL_NUM_VERSES.to_s
 
-@COLLECTION.each do |tuple|
+COLLECTION.each do |tuple|
   count_of_verses_in_chapter = tuple[1]
 
   @output += count_of_verses_in_chapter.to_s
 end
 
-@output += @TOTAL_NUM_VERSES.to_s
+@output += TOTAL_NUM_VERSES.to_s
 
 puts @output
 
