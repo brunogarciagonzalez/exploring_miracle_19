@@ -46,3 +46,12 @@ Numerical Combination 6:
 Numerical Combination 7:
 
 - Same as #5, but reverse the order of chapters.
+
+Numerical Combination 8
+
+- Concatenate the total sum of verse-numbers in Quran,
+- Followed by the total number of verses in Quran,
+- Followed by the total number of chapters in Quran,
+- Followed by chapter number,
+- Followed by count of verses for that chapter,
+- For all chapters.

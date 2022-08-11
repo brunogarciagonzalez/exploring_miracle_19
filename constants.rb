@@ -117,4 +117,7 @@
   [114, 6]
 ]
 
+@TOTAL_NUM_CHAPTERS = @COLLECTION.length # 114
 @TOTAL_NUM_VERSES = @COLLECTION.reduce(0) { |sum, tuple| sum + tuple[1] }
+
+@TOTAL_SUM_VERSES = @COLLECTION.reduce(0) { |sum, tuple| sum + (1..tuple[1]).reduce(0) { |subsum, verse_number| subsum + verse_number } }
