@@ -1,6 +1,6 @@
 ### About
 
-This repo contains some explorations into the Quran's mathematical miracle.
+This repo contains some explorations into the Quran's mathematical miracle, anchored on the number **19**.
 
 From Surah 74 (Chapter 74):
 
