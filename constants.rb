@@ -1,7 +1,5 @@
 # a list of tuples whose 0th index represents the chapter/surah number, and 1st index represents the count of ayat/verses of that chapter.
-# this collection includes the correct number of ayat for surah 9, at 127
-
-@chapternumber_versecount_collection = [
+@COLLECTION = [
   [1, 7],
   [2, 286],
   [3, 200],
@@ -10,6 +8,7 @@
   [6, 165],
   [7, 206],
   [8, 75],
+  # this collection includes the correct number of ayat for surah 9, at 127
   [9, 127],
   [10, 109],
   [11, 123],
@@ -117,3 +116,5 @@
   [113, 5],
   [114, 6]
 ]
+
+@TOTAL_NUM_VERSES = @COLLECTION.reduce(0) { |sum, tuple| sum + tuple[1] }
