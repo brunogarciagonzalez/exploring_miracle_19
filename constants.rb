@@ -1,5 +1,5 @@
 # a list of tuples whose 0th index represents the chapter/surah number, and 1st index represents the count of ayat/verses of that chapter.
-@COLLECTION = [
+COLLECTION = [
   [1, 7],
   [2, 286],
   [3, 200],
@@ -117,7 +117,8 @@
   [114, 6]
 ]
 
-@TOTAL_NUM_CHAPTERS = @COLLECTION.length # 114
-@TOTAL_NUM_VERSES = @COLLECTION.reduce(0) { |sum, tuple| sum + tuple[1] }
+TOTAL_NUM_CHAPTERS = COLLECTION.length # 114
 
-@TOTAL_SUM_VERSES = @COLLECTION.reduce(0) { |sum, tuple| sum + (1..tuple[1]).reduce(0) { |subsum, verse_number| subsum + verse_number } }
+TOTAL_NUM_VERSES = COLLECTION.reduce(0) { |sum, tuple| sum + tuple[1] }
+
+TOTAL_SUM_VERSES = COLLECTION.reduce(0) { |sum, tuple| sum + (1..tuple[1]).reduce(0) { |subsum, verse_number| subsum + verse_number } }
