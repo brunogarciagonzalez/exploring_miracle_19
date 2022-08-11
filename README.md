@@ -64,3 +64,8 @@ Numerical Combination 9:
 - Followed by count of verses for chapter,
 - Followed by that chapter number,
 - For all chapters.
+
+Numerical Combination 10:
+
+- Concatenate the sum of verse-numbers of each chapter.
+- Followed by the total sum of verse-numbers in Quran.
