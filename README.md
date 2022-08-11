@@ -14,8 +14,9 @@ Numerical Combination 1:
 
 Numerical Combination 2:
 
-- Concatenate the number of each verse in the Quran, **followed** for each sura by the number of verses in that sura.
-- Finally, concatenate the total number of verses in the Quran
+- Concatenate the number of each verse of a chapter,
+- Followed by the total number of verses in that chapter.
+- Finally, concatenate the total number of verses in the Quran.
 
 Numerical Combination 3:
 
