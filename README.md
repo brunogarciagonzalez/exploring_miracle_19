@@ -36,3 +36,9 @@ Numerical Combination 5:
 
 - Concatenate the number of every verse of a chapter,
 - Followed by the sum of the verse-numbers for a chapter.
+
+Numerical Combination 6:
+
+- Concatenate the sum of the verse-numbers for a chapter,
+- Followed by the concatenation of the verse-numbers for a chapter.
+- For all chapters.
