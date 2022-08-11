@@ -9,7 +9,8 @@ From Surah 74 (Chapter 74):
 
 Numerical Combination 1:
 
-- Concatenate the number of each verse in the Quran, **preceded** for each sura by the number of verses in that sura.
+- Concatenate the chapter number,
+- Followed by the number of each verse of that chapter.
 
 Numerical Combination 2:
 

@@ -1,7 +1,8 @@
 require_relative("constants.rb")
 
 # COMBINATION:
-# Concatenate the number of each verse in the Quran, preceded for each sura by the number of verses in that sura. 
+# Concatenate the chapter number,
+# Followed by the number of each verse of that chapter.
 
 # Thus, Sura 1, which consists of seven verses, will be represented by the number 7 1234567.
 # To find the number representing Sura 2, you write down the number of verses in this sura, 286,
