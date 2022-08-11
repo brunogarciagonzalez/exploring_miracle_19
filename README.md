@@ -42,3 +42,7 @@ Numerical Combination 6:
 - Concatenate the sum of the verse-numbers for a chapter,
 - Followed by the concatenation of the verse-numbers for a chapter.
 - For all chapters.
+
+Numerical Combination 7:
+
+- Same as #5, but reverse the order of chapters.
