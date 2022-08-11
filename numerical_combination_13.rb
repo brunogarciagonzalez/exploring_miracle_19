@@ -2,7 +2,7 @@ require_relative("constants.rb")
 
 # COMBINATION:
 # Concatenate the total number of verses in Quran,
-# Followed by count of verses for that chapter,
+# Followed by count of verses for each chapter,
 # Followed by (again) the total number of verses in Quran.
 
 @output = ""
