@@ -1,4 +1,4 @@
-require_relative("chapternumber_versecount_collection.rb")
+require_relative("constants.rb")
 
 # COMBINATION:
 # Concatenate the number of each verse in the Quran, preceded for each sura by the number of verses in that sura. 
@@ -11,7 +11,7 @@ require_relative("chapternumber_versecount_collection.rb")
 
 @output = ""
 
-@chapternumber_versecount_collection.each do |tuple|
+@COLLECTION.each do |tuple|
   count_of_verses_in_chapter = tuple[1]
 
   @output += count_of_verses_in_chapter.to_s
@@ -20,8 +20,6 @@ require_relative("chapternumber_versecount_collection.rb")
     @output += verse_number.to_s
   end
 end
-
-puts @output
 
 # @output turns out to be the following number, which was confrmed to be divisible by 19 using:
 # https://www.dcode.fr/modulo-n-calculator
