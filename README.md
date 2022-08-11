@@ -92,3 +92,11 @@ Numerical Combination 13:
 - Concatenate the total number of verses in Quran,
 - Followed by count of verses for that chapter,
 - Followed by (again) the total number of verses in Quran.
+
+Numerical Combination 14:
+
+- Concatenate the total number of verses in Quran,
+- Followed by the total number of chapters in Quran,
+- Followed by count of verses for each chapter,
+- Followed by (again) the total number of verses in Quran,
+- Followed by (again) the total number of chapters in Quran.
