@@ -31,3 +31,8 @@ Numerical Combination 4:
 - Followed the number of every verse for that chapter,
 - Followed by the chapter number.
 - Finally, concatenate the total number of verses in the Quran.
+
+Numerical Combination 5:
+
+- Concatenate the number of every verse of a chapter,
+- Followed by the sum of the verse-numbers for a chapter.
