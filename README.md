@@ -1,4 +1,5 @@
 This repo contains some explorations into the Quran's mathematical miracle.
+https://masjidtucson.org/quran/appendices/appendix1.html
 
 From Surah 74 (Chapter 74):
 
@@ -13,3 +14,4 @@ Numerical Combination 1:
 Numerical Combination 2:
 
 - Concatenate the number of each verse in the Quran, **followed** for each sura by the number of verses in that sura.
+- Finally, concatenate the total number of verses in the Quran
