@@ -1,11 +1,27 @@
+### About
+
 This repo contains some explorations into the Quran's mathematical miracle.
-https://masjidtucson.org/quran/appendices/appendix1.html
 
 From Surah 74 (Chapter 74):
 
 ```
 [74:30] Over it is nineteen.
+...
+[74:35] This is one of the great miracles.
 ```
+
+For more information, please see https://masjidtucson.org/quran/appendices/appendix1.html
+
+### Running the Code
+
+This code is written in Ruby.
+To run any of the combinations, use the ruby interpreter as such:
+
+```
+$ ruby numerical_combination_1.rb
+```
+
+### Table of Contents
 
 Numerical Combination 1:
 
